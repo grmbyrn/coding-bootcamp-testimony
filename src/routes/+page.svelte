@@ -134,17 +134,29 @@
         }
 
         .image-container{
+           flex: 1;
+        }
+
+        .btn-container{
             position: relative;
-            right: 50px;
+            top: 75px;
+            right: 100px;
+        }
+
+        .text-container{
+            flex: 1;
         }
 
         .user-image {
-            width: 540px;
+            position: relative;
+            top: 100px;
+            height: 475px;
+            width: 475px;
         }
 
         .text-container-inner{
             position: relative;
-            left: 50px;
+            left: 75px;
         }
 
         .quotes-image{
